@@ -1,0 +1,43 @@
+# Окружение
+.env
+uv.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+eurasiantech_test.py
+mp_kz_test.py
+mitwork_test.py
+
+# Виртуальное окружение
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Тесты и покрытие
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Логи
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
